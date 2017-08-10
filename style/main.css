@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#particles-js{
+  background-color: black;
+  height: 100%;
+  margin: 0;
+
+}
+.cont{
+  background-color: rgba(255,255,255,0.8);
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: calc(50% - 88px);
+  left: calc(50% - 280px);
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5em;
+  margin: 0;
+  color: black;
+  box-sizing: border-box;
+  font-size: 5em;
+  letter-spacing: 7px;
+}

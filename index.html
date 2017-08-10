@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style\main.css">
+  <title>Particles</title>
+</head>
+<body>
+  <div id="particles-js">
+    <div class="cont">
+      <h1>ParticlesJS</h1>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>﻿
+  <script type="text/javascript">
+      /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'script/json.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+</script>
+</body>
+</html>
